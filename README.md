@@ -1,10 +1,15 @@
 # Seyehat_Plani_Uygulamasi
  Seyehat_Plani_Uygulamasi
 
+A travel app in flutter with Google Maps API
 
+The video of the application is in the link: https://youtu.be/LFtXXIyajzY
+
+The application's document is in the uygulamaraporu.docx file.
 
 
 Trip-le Map
+
 Ahmet Nusret ASMA, İsmetullah KAYIKÇI, Osman Hulisi YILMAZ
 
 Yazılım Mühendisliği, 3, A
@@ -75,6 +80,8 @@ Mobil uygulama geliştiricileri için hedefli kullanıcı bildirimlerini etkinle
 
 Şekil1’de Firebase veri tabanından bir örnek gösterilmiştir.
 
+![image](https://user-images.githubusercontent.com/83847930/213918419-3e41353d-e7b0-4492-a800-d3e29f257335.png)
+
  
 Şekil1.Örnek Firebase veritabanı modeli[10]. 
 
@@ -106,6 +113,9 @@ Veritabanı tasarımı oluştururken dikkat etmemiz gereken başlıca kurallar b
 Şekil2.’de gösterildiği gibi öncelikle mekan tablosu oluşturulup içerisine mekan bilgileri girilmesi için birincil anahtar olarak mekan_id’si tanımlanmıştır. Ardından sırayla lat (enlem), lon (boylam), mekan_adi ve puan tanımlanarak mekan tablosu tamamlanmıştır. Sonrasında yeni bir tablo ile rota tablosu oluşturulup rota bilgileri girilmesi için birincil anahtarolarak rota_id tanımlanmıştır. Ardından başlangıç noktasının koordinatları lat1, lon1 şeklinde tanımlanmıştır. Sonra bitiş koordinatları lat2, lon2 olarak tanımlanmıştır. Son tablomuz olan kullanıcı tablosuna birincil anahtarolarak kullanıcı_id tanımlanmıştır. Ardından kullanıcının giriş türünü belirlemek için identifier eklenmiştir. Daha sonra created (hesap oluşturma tarihi) ve sign_in (son giriş tarihi) eklenip veri tabanı tamamlanmıştır.
 
 Açıklanan veri tabanı modelinintablo görünümü Şekil2’de gösterilmiştir.
+ 
+ ![image](https://user-images.githubusercontent.com/83847930/213918432-38f00545-af02-4ce7-9cf9-70f9ed65d433.png)
+
  
 Şekil2.Uygulama veri tabanı tablosu
 
@@ -208,19 +218,32 @@ Uygulama içerisinde kullanıcılardan bir hesap oluşturmaları veya misafir gi
 KAYNAKÇA
 
 [1] (8 Haziran 2022). Mobil uygulama. https://tr.wikipedia.org/wiki/Mobil_uygulama(Erişim Tarihi: 15 Ocak 2023)
+
 [2] (31 Temmuz 2022). Harita. https://tr.wikipedia.org/wiki/Harita(Erişim Tarihi: 16 Ocak 2023)
+
 [3] (3 Ekim 2022). Seyahat. https://tr.wikipedia.org/wiki/Seyahat(Erişim Tarihi: 16 Ocak 2023)
+
 [4] Demirbulat, Ö. G.,& AVCIKURT, C. (2015). Turizm ve mutluluk arasindaki ilişki üzerine kavramsal bir değerlendirme. Balıkesir Üniversitesi Sosyal Bilimler Enstitüsü Dergisi, 18(34), 79-97.
+
 [5] (30 Temmuz 2022). Dart (programlama dili). https://tr.wikipedia.org/wiki/Dart_(programlama_dili)(Erişim Tarihi: 15 Ocak 2023)
+
 [6] (19 Mart 2022). Firebase. https://tr.wikipedia.org/wiki/Firebase(Erişim Tarihi: 15 Ocak 2023)
+
 [7] (19 Mart 2022). Google Haritalar. https://tr.wikipedia.org/wiki/Google_Haritalar(Erişim Tarihi: 16 Ocak 2023)
-[8] 29 Haz 2016.Google AndroidFirebase: Learning the Basics  
+
+[8] 29 Haz 2016.Google AndroidFirebase: Learning the Basics 
 https://books.google.com.tr/books?id=JeeODAAAQBAJ&printsec=frontcover&hl=tr#v=onepage&q&f=false (Erişim Tarihi:20.01.2023)
+
 [9] Khawas, C.,&Shah, P. (2018). Application of firebase in androidappdevelopment-a study. International Journal of Computer Applications, 179(46), 49-53.
+
 [10]Firebase-Read Data 
 https://www.tutorialspoint.com/firebase/firebase_read_data (Erişim Tarihi:20.01.2023)
+
 [11] FirebaseAdvantages. https://blog.back4app.com/firebase-database-vs-mysql/ (Erişim Tarihi: 21.01.2023)
+
 [12]18 Haziran 2023.AndroidStudiohttps://en.wikipedia.org/wiki/Android_Studio 20.01.2022
 (Erişim Tarihi: 21.01.2023)
+
 [13] Veritabanı Nedir?. https://www.oracle.com/tr/database/what-is-database/ (Erişim Tarihi: 12.01.2023)
+
 [14] Veritabanı tasarımı temel bilgileri. https://support.microsoft.com/tr-tr/office/veritaban%C4%B1-tasar%C4%B1m%C4%B1-temel-bilgileri-eb2159cf-1e30-401a-8084-bd4f9c9ca1f5 (Erişim Tarihi: 12.01.2023)
